@@ -1,0 +1,39 @@
+ipynb-filters: [nbdev_filter]
+
+project:
+  type: website
+  output-dir: _docs
+  preview:
+    port: 3000
+    browser: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+
+website:
+  title: "hello_labdata_wv"
+  description: "Labdata Hello Python Packed"
+  execute: 
+    enabled: false
+  twitter-card: true
+  open-graph: true
+  reader-mode: true
+  repo-branch: main
+  repo-url: https://github.com/wagnervianap/hello-labdata-wv/
+  repo-actions: [issue]
+  navbar:
+    background: primary
+    search: true
+    right:
+      - icon: github
+        href: https://github.com/wagnervianap/hello-labdata-wv/
+  sidebar:
+    style: "floating"
+
+metadata-files: 
+  - sidebar.yml
+  - custom.yml
