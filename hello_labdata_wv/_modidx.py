@@ -26,4 +26,4 @@ d = { 'settings': { 'audience': 'Developers',
                 'tst_flags': 'notest',
                 'user': 'wagnervianap',
                 'version': '0.0.1'},
-  'syms': { 'hello_labdata_wv\\greetings': { 'hello_labdata_wv\\greetings.hello': 'https://wagnervianap.github.io/hello_labdata_wv/hello_labdata_wv\\greetings.html#hello'}}}
+  'syms': {'hello_labdata_wv.greetings': {'hello_labdata_wv.greetings.hello': 'https://wagnervianap.github.io/hello_labdata_wv/greetings.html#hello'}}}
